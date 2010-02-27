@@ -4,12 +4,12 @@
 
 Summary:	A GTK+ administation tool for OpenVPN (client)
 Name:		gadmin-openvpn-client
-Version:	0.0.8
+Version:	0.1.1
 Release:	%mkrel 1
 License:	GPLv3+
 Group:		System/Configuration/Networking
 URL:		http://www.gadmintools.org/
-Source0:	http://mange.dynalias.org/linux/gadmin-openvpn-client/%{name}-%{version}.tar.gz
+Source0:	http://mange.dynalias.org/linux/gadmin-openvpn/client/%{name}-%{version}.tar.gz
 Source1:	%{name}.pam
 BuildRequires:	gtk+2-devel
 BuildRequires:	imagemagick
@@ -31,7 +31,7 @@ OpenVPN (client use).
 
 %install
 rm -rf %{buildroot}
-%makeinstall
+%makeinstall_std
 
 install -d %{buildroot}%{_sysconfdir}/%{name}
 

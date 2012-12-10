@@ -101,3 +101,43 @@ rm -rf %{buildroot}
 %{_datadir}/applications/*
 %{_iconsdir}/hicolor/*/%{name}.png
 
+
+
+%changelog
+* Sun May 22 2011 Funda Wang <fwang@mandriva.org> 0.1.5-1mdv2011.0
++ Revision: 676972
+- update to new version 0.1.5
+
+* Tue Mar 15 2011 Stéphane Téletchéa <steletch@mandriva.org> 0.1.4-1
++ Revision: 645175
+- update to new version 0.1.4
+
+* Sat Dec 25 2010 Funda Wang <fwang@mandriva.org> 0.1.3-1mdv2011.0
++ Revision: 624782
+- update to new version 0.1.3
+
+* Sun Aug 29 2010 Funda Wang <fwang@mandriva.org> 0.1.2-1mdv2011.0
++ Revision: 574139
+- update to new version 0.1.2
+
+* Sat Feb 27 2010 Funda Wang <fwang@mandriva.org> 0.1.1-1mdv2010.1
++ Revision: 512359
+- new version 0.1.1
+
+* Thu Jan 07 2010 Emmanuel Andry <eandry@mandriva.org> 0.0.8-1mdv2010.1
++ Revision: 487296
+- New version 0.0.8
+
+* Fri Sep 11 2009 Emmanuel Andry <eandry@mandriva.org> 0.0.7-1mdv2010.0
++ Revision: 438454
+- New version 0.0.7
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.0.3-2mdv2010.0
++ Revision: 437633
+- rebuild
+
+* Sun Jan 04 2009 Adam Williamson <awilliamson@mandriva.org> 0.0.3-1mdv2009.1
++ Revision: 324195
+- import gadmin-openvpn-client
+
+

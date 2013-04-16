@@ -5,7 +5,7 @@
 Summary:	A GTK+ administation tool for OpenVPN (client)
 Name:		gadmin-openvpn-client
 Version:	0.1.5
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		System/Configuration/Networking
 URL:		http://www.gadmintools.org/
